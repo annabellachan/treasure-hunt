@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt</title>
+    <link rel="icon” type="image/x-icon" href=“https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV_aBpYFFbFBC4DlH5pUn5fSFQc5u9C7kDGOARoxwVesV_9mZAeUiapkN-YT7Nfg3mhI8&usqp=CAU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="treasureHunt.css">
+  </head>
+
+
+  <body id="aqua">
+    <h1>Treasure Hunt Game</h1>
+    <hr>
+    <h3>Game Rules</h3>
+    <ul class="line"><b>
+      <li>Click to any box and try to find the diamond.</li>
+      <li>Careful of the pesky bombs!</li>
+      <li>If you found the bomb, you can restart the game.</li>
+    </ul></b>
+    <table id="game"border=2>
+      <tr>
+      <td id=0 onclick="treasure(0)">🐬</td>
+      <td id=1 onclick="treasure(1)">🦀</td>
+      <td id=2 onclick="treasure(2)">🦑</td>
+      <td id=3 onclick="treasure(3)">🐠</td>
+      </tr>
+      <tr>
+      <td id=4 onclick="treasure(4)">🦭</td>
+      <td id=5 onclick="treasure(5)">🐙</td>
+      <td id=6 onclick="treasure(6)">🐡</td>
+      <td id=7 onclick="treasure(7)">🐊</td>
+      </tr>
+      <tr>
+      <td id=8 onclick="treasure(8)">🐋</td>
+      <td id=9 onclick="treasure(9)">🐢</td>
+      <td id=10 onclick="treasure(10)">🦐</td>
+      <td id=11 onclick="treasure(11)">🦈</td>
+      </tr>
+      </table>
+      <p></p>
+    <button id="bigButton" type="button" onclick="window.location.reload()">Restart Game</button>
+      <footer>
+        &copy Annabella Chan
+        <a href ="https://img.freepik.com/premium-photo/magnificent-underwater-world-maldives_501530-9298.jpg">Checkout more fish here</a>
+      </footer>
+    <script type="text/javascript" src="treasureHunt.js">
+    </script>
+  </body>
+</html>

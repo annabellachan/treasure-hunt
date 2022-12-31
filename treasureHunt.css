@@ -1,0 +1,73 @@
+body {
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk58801723-wikimedia-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=8337e12c5f366485a1e4d8785bf1ef5f) ;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color:aqua;
+}
+/* body {
+  opacity: 0.1;
+} */
+
+.body:before {
+}
+* {
+  text-align: center;
+}
+
+h1, h3{
+   color: rgb(124 140 232);
+   font-family: ‘Cormorant Garamond’, serif;
+}
+
+table {
+  background-color:#008eff8a;
+  /* background-color: rgba(1, 0, 0, 0.5); */
+  border-style: dashed;
+  border-width: thick;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+table td {
+  z-index: 6;
+  font-size: 50px;
+}
+
+table tr{
+  height: 100px;
+}
+
+#bigButton{
+  animation: bounce 2s infinite;
+  animation-duration: 3s;
+}
+
+@keyframes bounce {
+    0% {
+      transform: scaleX(0.5);
+    }
+    50% {
+      transform: scaleX(1.5);
+    }
+    90% {
+      transform: scaleX(1.0);
+    }
+}
+
+button {
+  padding:5px;
+  background-color: rgb(124 140 232);
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: antiquewhite;
+  background-color: darkslategray;
+  font-size: 30px;
+}
+
+.line {
+  list-style-type: none;
+}
